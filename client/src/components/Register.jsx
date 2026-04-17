@@ -26,9 +26,9 @@ export default function Register() {
             })
     }
     return (
-<div className='container d-flex justify-content-center align-items-center vh-100'>
-            <div className='row w-100 justify-content-center'>
-                <form onSubmit={handleRegister} className='col-12 col-md-6 col-lg-4 shadow p-4 rounded bg-light'>
+        <div className='container'>
+            <div className='row'>
+                <form onSubmit={handleRegister} className='col-12 col-md-6'>
                     <div className='mb-3'>
                         <h1>Register</h1>
                     </div>
